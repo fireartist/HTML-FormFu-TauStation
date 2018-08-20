@@ -36,7 +36,7 @@ HTML::FormFu::Deflator::TauStation::DateTime
     ---
     elements:
         - type: Text
-          contraint:
+          constraint:
               - 'TauStation::DateTime'
           inflator:
               - 'TauStation::DateTime'

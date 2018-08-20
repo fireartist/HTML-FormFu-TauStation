@@ -13,7 +13,7 @@ HTML::FormFu::TauStation
     elements:
         - type: Text
           name: gct_datetime
-          contraint:
+          constraint:
               - 'TauStation::DateTime'
           inflator:
               - 'TauStation::DateTime'
@@ -22,7 +22,7 @@ HTML::FormFu::TauStation
 
         - type: Text
           name: gct_duration
-          contraint:
+          constraint:
               - 'TauStation::Duration'
           inflator:
               - 'TauStation::Duration'
