@@ -5,7 +5,7 @@ package HTML::FormFu::Deflator::TauStation::Duration;
 use Moose;
 extends 'HTML::FormFu::Deflator';
 
-use DateTime::Format::TauStation;
+use DateTime::Format::TauStation 1.182290;
 
 sub deflator {
     my ( $self, $value ) = @_;

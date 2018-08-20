@@ -5,7 +5,7 @@ use Moose;
 extends 'HTML::FormFu::Inflator';
 
 use HTML::FormFu::Constants qw( $EMPTY_STR );
-use DateTime::Format::TauStation;
+use DateTime::Format::TauStation 1.182290;
 
 
 sub inflator {
