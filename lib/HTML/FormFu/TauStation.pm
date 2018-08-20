@@ -1,4 +1,7 @@
+package HTML::FormFu::TauStation
 # ABSTRACT: HTML::FormFu modules for working with GCT (Galactic Time Coordinated) datetimes and durations from the online game Tau Station
+
+1;
 
 =head1 NAME
 
