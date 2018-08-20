@@ -27,7 +27,7 @@ HTML::FormFu::Constraint::TauStation::Duration
     ---
     elements:
         - type: Text
-          contraint:
+          constraint:
               - 'TauStation::Duration'
           inflator:
               - 'TauStation::Duration'
